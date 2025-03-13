@@ -7,7 +7,8 @@ function agregarAmigo() {
           alert("Por favor, inserte un nombre.");
           return; // Salir de la función si está vacío
         }
-      amigos.push(nombre);
+      console.log(nombre);
+       amigos.push(nombre);
       document.getElementById('nombreAmigo').value = "";
       console.log(amigos);
 }
